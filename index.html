@@ -21,83 +21,45 @@
         <section id="apps">
             <h2>My Apps</h2>
             <p>Explore my Android apps here!</p>
+            
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/u-uyt9ufplg" 
+                title="App Demo" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
         </section>
-        
         <section id="forum">
             <h2>Forum</h2>
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = window.location.href;  // Your page's canonical URL
-                    this.page.identifier = "forum";       // Unique identifier for this page
+                    this.page.url = window.location.href;
+                    this.page.identifier = "forum";
                 };
-    
-                (function() {
-                    var d = document, s = d.createElement('script');
-                    s.src = 'https://qtm-p6-clta.disqus.com/embed.js'; // Use your shortname here
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the comments.</noscript>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Qtm-P6 (CLTA). All rights reserved.</p>
-    </footer>    
-    <script src="script.js"></script>
-</body>
-</html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Qtm-P6 (CLTA)</h1>
-        <nav>
-            <ul>
-                <li><a href="#apps">Apps</a></li>
-                <li><a href="#forum">Forum</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>    
-    <main>
-        <section id="apps">
-            <h2>My Apps</h2>
-            <p>Explore my Android apps here!</p>
-        </section>
-        
-        <section id="forum">
-            <h2>Forum</h2>
-            <div id="disqus_thread"></div>
-            <script>
-                var disqus_config = function () {
-                    this.page.url = window.location.href;  // Your page's canonical URL
-                    this.page.identifier = "forum";       // Unique identifier for this page
-                };
-    
                 (function() {
                     var d = document, s = d.createElement('script');
-                    s.src = 'https://qtm-p6-clta.disqus.com/embed.js'; // Use your shortname here
+                    s.src = 'https://qtm-p6-clta.disqus.com/embed.js';
                     s.setAttribute('data-timestamp', +new Date());
                     (d.head || d.body).appendChild(s);
                 })();
             </script>
             <noscript>Please enable JavaScript to view the comments.</noscript>
         </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: quantuman666@gmail.com</p>
+            <p>Contact #: 09917994937</p>
+            <p>Facebook: <a href="https://facebook.com/QtmP6" target="_blank">QtmP6</a></p>
+        </section>        
     </main>
     
     <footer>
         <p>&copy; 2025 Qtm-P6 (CLTA). All rights reserved.</p>
     </footer>    
+
     <script src="script.js"></script>
 </body>
 </html>
